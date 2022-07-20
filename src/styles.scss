@@ -1,0 +1,25 @@
+
+/* You can add global styles to this file, and also import other style files */
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:400,700|Material+Icons');
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;color: var(--primary-text-color); }
+body
+{
+//  background: #FFFFFF;
+    background-color: var(--primary-bg-color);
+}
+
+// @include angular-material-theme($candy-app-theme);
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body{
+    --primary-bg-color:#f5E8f2;
+    --primary-text-color:#000000;
+    &.dark{
+        --primary-bg-color:#000000;
+        --primary-text-color:#ffffff; 
+    }
+
+}
