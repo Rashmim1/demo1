@@ -1,0 +1,35 @@
+<div class="d-flex justify-content-between align-items-center mt-2">
+  <div class="pl-3 mint">Ready to Mint( 123 )</div>
+  <div class="d-flex end">
+    <div class="mx-3"><mat-icon>search</mat-icon> Search</div>
+    <div class="">
+      <div class="mx-3 align-self-center border border-dark p-2">
+        <i class="fa-solid fa-filter"></i>Filter
+      </div>
+    </div>
+    <div class="mx-3 align-self-center border border-dark p-2">
+      <i class="fa-solid fa-arrow-down-short-wide"></i>Sort
+    </div>
+  </div>
+</div>
+<div class="container d-flex col-md-12 row ml-5 main">
+  <mat-card class="col-sm-2 mt-3 mx-2 rounded" *ngFor="let array of post">
+    <img
+      mat-card-image
+      src="{{ array?.image }}"
+      class="img-auto px-2 pt-1 rounded"/>
+    <mat-card-content>
+      <div class="data ml-2">
+        <div class="row">Name:{{ array?.name }}</div>
+        <div class="row">Symbol:{{ array?.Symbol }}</div>
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <div class="text-center">
+        <button mat-button (click)="openDialog()">Mint</button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+</div>
+
+

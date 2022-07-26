@@ -7,7 +7,7 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;color: var(--primary-text-color); }
 body
 {
-//  background: #FFFFFF;
+//  background: #E5E5E5;; :#f5E8f2
     background-color: var(--primary-bg-color);
 }
 
@@ -15,7 +15,7 @@ body
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 body{
-    --primary-bg-color:#f5E8f2;
+    --primary-bg-color:#E5E5E5;
     --primary-text-color:#000000;
     &.dark{
         --primary-bg-color:#000000;

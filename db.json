@@ -1,0 +1,76 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Angular",
+      "Symbol": "Angular Red Background",
+      "image":"https://cdn.pixabay.com/photo/2022/07/07/07/24/clouds-7306684__340.jpg"
+    },{
+      "id": 2,
+      "name": "Angular",
+      "Symbol": "Angular Red Background",
+             "image":"https://cdn.pixabay.com/photo/2022/07/07/07/24/clouds-7306684__340.jpg"
+      
+    },
+    {
+      "id": 3,
+      "name": "Angular",
+      "Symbol": "Angular Red Background",
+             "image":"https://cdn.pixabay.com/photo/2022/07/07/07/24/clouds-7306684__340.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Angular",
+      "Symbol": "Angular Red Background",
+             "image":"https://cdn.pixabay.com/photo/2022/07/07/07/24/clouds-7306684__340.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Angular",
+      "Symbol": "Angular Red Background",
+             "image":"https://cdn.pixabay.com/photo/2022/07/07/07/24/clouds-7306684__340.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Angular",
+      "Symbol": "Angular Red Background",
+             "image":"https://cdn.pixabay.com/photo/2022/07/07/07/24/clouds-7306684__340.jpg"
+    },
+    {
+      "id":7 ,
+      "name": "Angular",
+      "Symbol": "Angular Red Background",
+     "image":"https://cdn.pixabay.com/photo/2022/07/07/07/24/clouds-7306684__340.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Angular",
+      "Symbol": "Angular Red Background",
+             "image":"https://cdn.pixabay.com/photo/2022/07/07/07/24/clouds-7306684__340.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Angular",
+      "Symbol": "Angular Red Background",
+             "image":"https://cdn.pixabay.com/photo/2022/07/07/07/24/clouds-7306684__340.jpg"
+    },
+    {
+      "id":10 ,
+      "name": "Angular",
+      "Symbol": "Angular Red Background",
+             "image":"https://cdn.pixabay.com/photo/2022/07/07/07/24/clouds-7306684__340.jpg"
+    }
+    
+    
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

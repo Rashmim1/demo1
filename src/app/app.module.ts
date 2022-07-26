@@ -25,7 +25,11 @@ import {ClipboardModule} from '@angular/cdk/clipboard';
 import {MatTreeModule} from '@angular/material/tree';
 import { NgxCopyPasteModule } from 'ngx-copypaste';
 import {CdkTreeModule} from '@angular/cdk/tree';
-import { ThemeComponent } from './theme/theme.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatDialogModule} from '@angular/material/dialog';
+import { ThemeComponent } from './logout/theme.component';
+import { MintComponent } from './card/mint/mint.component';
+import { PopupComponent } from './card/popup/popup.component';
 
 
 
@@ -37,13 +41,15 @@ import { ThemeComponent } from './theme/theme.component';
     NftComponent,
     MainComponent,
     ThemeComponent,
-  
+    MintComponent,
+    PopupComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,MatToolbarModule,MatIconModule,MatTableModule,MatFormFieldModule,
-    HttpClientModule,MatTabsModule,MatSelectModule,MatMenuModule,
+    HttpClientModule,MatTabsModule,MatSelectModule,MatMenuModule,MatCardModule,MatDialogModule,
   MatAutocompleteModule,MatChipsModule,MatTreeModule,NgxCopyPasteModule,CdkTreeModule,
   MatSlideToggleModule,ReactiveFormsModule,FormsModule,MatInputModule,MatAutocompleteModule,Ng2SearchPipeModule,ClipboardModule
   ],

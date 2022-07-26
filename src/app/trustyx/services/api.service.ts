@@ -17,6 +17,9 @@ export class ApiService {
   getapi(searchValue:any){
     return this.http.get(`https://public-api.solscan.io/account/${searchValue}`);
   }
+  mintcall(){
+    return this.http.get('http://localhost:3000/posts/')
+  }
 
  
 }

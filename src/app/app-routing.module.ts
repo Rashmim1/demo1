@@ -1,4 +1,4 @@
-import { ThemeComponent } from './theme/theme.component';
+import { ThemeComponent } from './logout/theme.component';
 
 import { NftComponent } from './trustyx/nft/nft.component';
 import { NavBarComponent } from './trustyx/nav-bar/nav-bar.component';
